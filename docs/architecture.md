@@ -4,8 +4,8 @@
 - Wildberries is the largest Russian online retailer
 
 ## Main components 
-![Wildberries Component Architecture](./diagrams/out/wildberries/architecture-component/Component%20Diagram.svg)
-[Wildberries Component Architecture PlantUML code](../../../docs/diagrams/src/wildberries/architecture-component.puml)
+![Wildberries Component Architecture](/docs/diagrams/out/wildberries/architecture-component/Component%20Diagram.svg)
+[Wildberries Component Architecture PlantUML code](/docs/diagrams/src/wildberries/architecture-component.puml)
 
 - Auth & ID Service: Handling user authentication/authorization, managing users' accesses (customers, sellers, VIP-users, etc.)
 - Fintech & Payment Service: Handling payment processing, secure transactions (payments/refunds), and integration with external banks and payment providers.
