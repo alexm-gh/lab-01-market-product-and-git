@@ -4,6 +4,7 @@
 - Wildberries is the largest Russian online retailer
 
 ## Main components 
+![Telegram Component Diagram](../../../docs/diagrams/out/telegram/component-diagram/Component%20Diagram.svg)
 ![Wildberries Component Architecture](../../../docs/diagrams/out/wildberries/architecture-component/Component%20Diagram.svg)
 [Wildberries Component Architecture PlantUML code](../../../docs/diagrams/src/wildberries/architecture-component.puml)
 
