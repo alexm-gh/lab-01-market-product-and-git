@@ -4,8 +4,8 @@
 - Wildberries is the largest Russian online retailer
 
 ## Main components 
-![Wildberries Component Architecture](./diagrams/out/wildberries/architecture-component/Component%20Diagram.svg)
-[Wildberries Component Architecture PlantUML code](./diagrams/src/wildberries/architecture-component.puml)
+![Wildberries Component Architecture](../../../docs/diagrams/out/wildberries/architecture-component/Component%20Diagram.svg)
+[Wildberries Component Architecture PlantUML code](../../../docs/diagrams/src/wildberries/architecture-component.puml)
 
 - Auth & ID Service: Handling user authentication/authorization, managing users' accesses (customers, sellers, VIP-users, etc.)
 - Fintech & Payment Service: Handling payment processing, secure transactions (payments/refunds), and integration with external banks and payment providers.
@@ -15,8 +15,8 @@
 
 ## Data flow
 
-![Wildberries Sequence Architecture](./diagrams/out/wildberries/architecture-sequence/Sequence%20Diagram.svg)
-[Wildberries Sequence Architecture PlantUML code](./diagrams/src/wildberries/architecture-sequence.puml)
+![Wildberries Sequence Architecture](../../../docs/diagrams/out/wildberries/architecture-sequence/Sequence%20Diagram.svg)
+[Wildberries Sequence Architecture PlantUML code](../../../docs/diagrams/src/wildberries/architecture-sequence.puml)
 
 Warehouse Fulfillment (Async)
 
@@ -24,8 +24,8 @@ Firstly, the OrderPaid event is consumed. After that, the closest warehouse is c
 
 
 ## Deployment
-![Wildberries Deployment Architecture](./diagrams/out/wildberries/architecture-deployment/Deployment%20Diagram.svg)
-[Wildberries Deployment Architecture PlantUML code](./diagrams/src/wildberries/architecture-deployment.puml)
+![Wildberries Deployment Architecture](../../../docs/diagrams/out/wildberries/architecture-deployment/Deployment%20Diagram.svg)
+[Wildberries Deployment Architecture PlantUML code](../../../docs/diagrams/src/wildberries/architecture-deployment.puml)
 
 Wildberries Deployment Architecture can be divided to 3 major parts. First part is frontend, which provides an app or website for user to interact with Wildberries. Second part is global infrastructure that can be represented as a cluster of various groups (such as microservices, DB system, search index, etc.). Finally, Wildberries use external services (payment providers, logistics, SMS / Push providers), so that any user can comfortably make orders.
 
